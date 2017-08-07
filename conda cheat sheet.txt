@@ -21,3 +21,8 @@ conda env remove -n hello
 conda update setuptools
 pip install -r requirements.txt
 pip install --upgrade tensorflow
+floyd delete J2ggstKWTNm
+floyd login 
+eyJ0eXaiO
+floyd init project-name
+floyd run --mode jupyter --gpu --env tensorflow-1.0
